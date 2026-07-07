@@ -1,3 +1,2 @@
 aidial-interceptors-sdk==0.7.0
 uvicorn==0.34.3
-google-cloud-dlp
