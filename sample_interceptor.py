@@ -8,9 +8,9 @@ in the base class; only override the ones you need.
 
 import logging
 
+from aidial_interceptors_sdk.chat_completion.annotated_value import AnnotatedException
 from aidial_interceptors_sdk.chat_completion.base import ChatCompletionInterceptor
 from aidial_interceptors_sdk.chat_completion.element_path import ElementPath
-from aidial_interceptors_sdk.error import AnnotatedException
 
 log = logging.getLogger(__name__)
 
